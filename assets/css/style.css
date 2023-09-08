@@ -487,6 +487,7 @@ main { overflow-x: hidden; }
 .hero .btn-primary { margin-inline: auto; }
 
 .whiteShirtimage{
+  width: 100%;
   filter: drop-shadow(0px 0px 15px #fffdf0);
 }
 
