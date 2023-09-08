@@ -555,7 +555,7 @@ main { overflow-x: hidden; }
  * #ABOUT
 \*-----------------------------------*/
 
-.about { padding-block: var(--section-padding); }
+.aboutsection { padding-block: var(--section-padding); }
 
 .about-banner {
   max-width: 400px;
@@ -563,12 +563,12 @@ main { overflow-x: hidden; }
   margin-bottom: 80px;
 }
 
-.about .btn {
+.aboutsection .btn {
   max-width: unset;
   width: 100%;
 }
 
-.about .btn-secondary { margin-bottom: 10px; }
+.aboutsection .btn-secondary { margin-bottom: 10px; }
 
 
 
@@ -578,7 +578,7 @@ main { overflow-x: hidden; }
  * #SKILLS
 \*-----------------------------------*/
 
-.skills { padding-block: var(--section-padding); }
+.skillssection { padding-block: var(--section-padding); }
 
 .skills-content { margin-bottom: 50px; }
 
@@ -729,7 +729,7 @@ border-radius: 5px;
  * #CONTACT
 \*-----------------------------------*/
 
-.contact { padding-block: var(--section-padding); }
+.contactSection { padding-block: var(--section-padding); }
 
 .contact-content { margin-bottom: 50px; }
 
@@ -837,7 +837,7 @@ textarea.input-field {
 
 .input-field:focus + ion-icon { color: var(--raw-seinna); }
 
-.contact .btn-primary {
+.contactSection .btn-primary {
   max-width: unset;
   width: 100%;
   background: var(--color-primary);
@@ -983,9 +983,9 @@ textarea.input-field {
     gap: 20px;
   }
 
-  .about .btn { max-width: max-content; }
+  .aboutsection .btn { max-width: max-content; }
 
-  .about .btn-secondary { margin-bottom: 0; }
+  .aboutsection .btn-secondary { margin-bottom: 0; }
 
 
 
@@ -1212,7 +1212,7 @@ textarea.input-field {
    * ABOUT
    */
 
-  .about {
+  .aboutsection {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -1228,7 +1228,7 @@ textarea.input-field {
    * SKILLS
    */
 
-  .skills {
+  .skillssection {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -1259,7 +1259,7 @@ textarea.input-field {
    * CONTACT
    */
 
-  .contact {
+  .contactSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
