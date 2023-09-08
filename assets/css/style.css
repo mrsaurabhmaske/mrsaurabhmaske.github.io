@@ -241,7 +241,7 @@ body.active { overflow: hidden; }
   background: var(--color-secondary);
 }
 
-.project-title {
+.project-section-title {
   max-width: 350px;
   margin-bottom: 30px;
 }
@@ -531,13 +531,13 @@ main { overflow-x: hidden; }
   filter: invert(1);
 }
 
-.stats-card .card-title {
+.stats-card .project-title {
   width: calc(100% - 95px);
   color: var(--raw-seinna);
   text-align: center;
 }
 
-.stats-card .card-title strong {
+.stats-card .project-title strong {
   display: block;
   color: var(--color-primary);
   font-size: initial;
@@ -927,7 +927,7 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-  .project-title { max-width: 380px; }
+  .project-section-title { max-width: 380px; }
 
 
 
@@ -960,7 +960,7 @@ textarea.input-field {
 
   .container { max-width: 720px; }
 
-  .project-title { max-width: 430px; }
+  .project-section-title { max-width: 430px; }
 
 
 
@@ -1303,7 +1303,7 @@ textarea.input-field {
 
   .container { max-width: 1150px; }
 
-  .project-title { max-width: 460px; }
+  .project-section-title { max-width: 460px; }
 
 
 
