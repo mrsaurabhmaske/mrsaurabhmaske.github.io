@@ -98,6 +98,4 @@ function downloadResume() {
     "https://drive.google.com/file/d/11PYxyfWvcXT5QjrSHvxTChWUGhpWuTz2/view?usp=sharing",
     "_blank"
   );
-
-  //download the file automatically
 }
